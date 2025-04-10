@@ -5,8 +5,6 @@
   text-align: center;
 } */
 
-
-
 /* Custom css */
 
 .app_component {
@@ -47,8 +45,54 @@ ul.nav_links {
   margin: 0px 60px 30px 0px;
 }
 
-.restaurant_card_component:hover{
+.restaurant_card_component:hover {
   border: 2px solid black;
+}
+
+h3,
+h4 {
+  margin: 2px;
+}
+
+.restaurant_extra_details {
+  display: flex;
+}
+
+.body_filters {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+button.filter-top-rated-btn,
+button.thirty-mins-del {
+  border: 1px solid black;
+  border-radius: 20px;
+  font-weight: normal;
+  width: 200px;
+  cursor: pointer;
+  margin-right: 10px;
+  float: right;
+}
+
+button.filter-top-rated-btn:hover,
+button.thirty-mins-del:hover {
+  font-weight: bold;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none !important;
+}
+
+button.button-selected-focus {
+  background-color: antiquewhite;
+  font-weight: bold;
+}
+
+.loader-body-page {
+  position: relative;
+  top: 100px;
+  left: 50%;
 }
 
 .restaurant_container {
@@ -57,13 +101,110 @@ ul.nav_links {
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 80px;
+  margin-left: 80px;
 }
 
-h3, h4{
-  margin: 2px;
+.login-btn {
+  width: 100px;
+  cursor: pointer;
+  padding: 4px;
 }
 
-.restaurant_extra_details{
+input.search_bar_input {
+  width: 220px;
+  padding: 9px;
+  height: 22px;
+  font-size: 18px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+button.filter-top-rated-btn {
+  margin-right: 188px;
+}
+
+button.thirty-mins-del {
+  margin-right: 20px;
+}
+
+span.brand_name {
+  padding-top: 1%;
+  font-size: 28px;
+  color: green;
+}
+
+.aboutusimages {
+  width: 400px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  margin-top: 30px;
+}
+
+.contact_us_info{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.faq_comp {
+  width: 400px;
+}
+
+span.downArrowFaqComp {
+  float: right;
+}
+
+button.submit {
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+
+input.contact_input {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.RestaurantMenu_component {
+  width: 50%;
+  margin: auto;
+}
+
+.ind_prop_part1 {
   display: flex;
+  width: 100%;
+}
+.ind_cusine {
+  width: 50%;
+}
+.ind_rating {
+  width: 50%;
 }
 
+.indiv_rating{
+  float: right;
+}
+
+.info-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-item {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  margin-top: 20px;
+}
+
+.indiv_menu_items{
+  margin-top: 40px;
+}
+
+.left-menu {
+  width: 70%;
+}
+
+.info-description {
+  height: 50px;
+  width: 600px;
+}
